@@ -124,17 +124,17 @@ The dataset is stored on Google Drive due to size limitations. See `dataset/READ
 If you use this code, please cite:
 ```
 Psoas Muscle Segmentation and Age Prediction
-[Your Name/Institution]
-[Year]
+[Merim Jusufbegovic/Faculty of Electrical Engineering
+[2026]
 ```
 
 ## 📄 License
 
-[Specify your license here]
+MIT license
 
 ## 👥 Authors
 
-[Your name and contact information]
+[Merim Jusufbegovic]
 
 ## 🙏 Acknowledgments
 
