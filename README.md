@@ -132,7 +132,7 @@ Psoas Muscle Segmentation and Age Prediction
 
 MIT license
 
-## 👥 Authors
+## 👥 Author
 
 [Merim Jusufbegovic]
 
