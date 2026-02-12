@@ -119,7 +119,7 @@ The dataset is stored on Google Drive due to size limitations. See `dataset/READ
 - **Gradio**: Interactive UI
 - **Matplotlib**: Visualization
 
-## 📝 Citation
+## Citation
 
 If you use this code, please cite:
 ```
