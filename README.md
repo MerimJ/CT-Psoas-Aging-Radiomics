@@ -2,20 +2,20 @@
 
 A complete pipeline for segmenting psoas muscles from CT scans using U-Net and predicting patient age using Radiomics features.
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a deep learning pipeline for:
 1. **Segmentation**: U-Net-based segmentation of psoas muscles from CT scans
 2. **Feature Extraction**: Radiomics feature extraction from segmented regions
 3. **Age Prediction**: Ridge regression model for age prediction using Radiomics features
 
-## 🎯 Key Results
+## Key Results
 
 - **Segmentation Dice Score**: 0.1102 (11.02%) on validation, 0.0996 (9.96%) on test
 - **Age Prediction MAE**: ~5 years using Ridge regression with Leave-One-Out CV
 - **Model**: U-Net with weighted loss (139:1) to handle severe class imbalance
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -57,7 +57,7 @@ cd code
 # Open http://127.0.0.1:7860 in browser
 ```
 
-## 📚 Documentation
+## Documentation
 
 All documentation is available in the `documentation/` folder:
 - **Complete workflow guide**
@@ -65,11 +65,11 @@ All documentation is available in the `documentation/` folder:
 - **Problem-solving guides**
 - **Troubleshooting tips**
 
-## 🔗 Data Access
+## Data Access
 
 The dataset is stored on Google Drive due to size limitations. See `dataset/README.md` for access instructions.
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Known Issues and Solutions
 
@@ -88,7 +88,7 @@ The dataset is stored on Google Drive due to size limitations. See `dataset/READ
    - **Solution**: Use higher threshold (0.7-0.9) and aggressive post-processing
    - **See**: `documentation/OVERSEGMENTATION_FIX.md`
 
-## 📊 Project Phases
+## Project Phases
 
 ### Phase A: Data Preparation
 - CT scan and mask pairing
@@ -110,7 +110,7 @@ The dataset is stored on Google Drive due to size limitations. See `dataset/READ
 - Weighted loss function
 - Dice score: 0.1102
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **PyTorch**: Deep learning framework
 - **Nibabel**: NIfTI file handling
@@ -128,15 +128,15 @@ Psoas Muscle Segmentation and Age Prediction
 [2026]
 ```
 
-## 📄 License
+## License
 
 MIT license
 
-## 👥 Author
+## Author
 
-[Merim Jusufbegovic]
+Merim Jusufbegovic
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset providers
 - Open-source library contributors
